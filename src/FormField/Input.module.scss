@@ -1,0 +1,26 @@
+.inputWrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-basis: 48%;
+
+  .name {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    outline: none;
+
+    &.error {
+      border-color: red;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@use '../index';
+
+.switchContainer {
+  display: flex;
+
+  button {
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    padding: 15px 34px;
+
+    &:first-of-type {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    &:nth-of-type(2) {
+      border-left: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    &.active {
+      color: white;
+      background-color: #4b1cff;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 4,
+      "name": "123213"
+    },
+    {
+      "email": "kraychik@sixhands.co",
+      "password": "Qq123456",
+      "name": "dqwd",
+      "surname": "dqwd",
+      "passwordAgain": "dqwdqdqwd",
+      "id": 5
+    },
+    {
+      "email": "butlo@sixhands.co",
+      "password": "11111111",
+      "name": "вйцввйц",
+      "surname": "вйцвйц",
+      "id": 6
+    }
+  ]
+}
